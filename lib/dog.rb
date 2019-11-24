@@ -6,4 +6,4 @@ class Dog
     @this_dogs_name
   end
 end
-fido.instance_variable_get
+fido.instance_variable_get(:@name)
