@@ -6,4 +6,5 @@ class Dog
 #    @this_dogs_name
  # end
 end
+fido = Dog.new
 fido.instance_variable_get(:@name)
